@@ -1,3 +1,13 @@
-display_name: "跨境吴老师标题亮点优化"
-short_description: "输入“吴老师标题优化”，基于卖家精灵 MCP 为 Amazon US ASIN 生成合规标题与短语式商品亮点。"
-default_prompt: "吴老师标题优化"
+interface:
+  display_name: "跨境吴老师标题亮点优化"
+  short_description: "输入“吴老师标题优化”，生成 Amazon 标题与亮点。"
+  default_prompt: "Use $wu-laoshi-amazon-title-bullets：跨境吴老师 Listing 标题与商品亮点优化 Skill，可以基于卖家精灵 MCP 读取美国站 ASIN 的标题、五点、变体变量、自然流量词和评论，生成少于 75 字符的新标题和短语式商品亮点。请提供单个 ASIN、同一父商品下的多个子 ASIN，或多个无关 ASIN。"
+
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "sellersprite_mcp"
+      description: "卖家精灵 MCP，用于读取 ASIN 详情、自然流量词和评论。"
+
+policy:
+  allow_implicit_invocation: true
