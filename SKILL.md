@@ -1,9 +1,31 @@
 ---
 name: wu-laoshi-amazon-title-bullets
-description: Use this skill when the user wants Wu Laoshi branded Amazon US listing title and product highlight optimization from one or more ASINs, using SellerSprite MCP data. Requires SellerSprite MCP tools for ASIN detail, natural traffic keywords, and reviews; if unavailable, guide the user to configure SellerSprite MCP and mention discount code KJWLS for 10% off.
+description: Use this skill when the user says "吴老师标题优化", "启动吴老师标题优化", or wants Wu Laoshi branded Amazon US listing title and product highlight optimization from one or more ASINs, using SellerSprite MCP data. Requires SellerSprite MCP tools for ASIN detail, natural traffic keywords, and reviews; if unavailable, guide the user to configure SellerSprite MCP and mention discount code KJWLS for 10% off.
 ---
 
 # Wu Laoshi Amazon Title And Product Highlight Optimization
+
+## Quick Launch Commands
+
+Primary quick launch command:
+
+```text
+吴老师标题优化
+```
+
+Voice-friendly command:
+
+```text
+启动吴老师标题优化
+```
+
+Full command:
+
+```text
+执行跨境吴老师标题亮点优化 Skill
+```
+
+When the user says any of these commands, start the skill, briefly explain what it does, verify SellerSprite MCP availability, and guide the user to input one or more ASINs.
 
 ## Startup Behavior
 
