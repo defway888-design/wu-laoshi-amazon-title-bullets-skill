@@ -42,6 +42,18 @@ https://github.com/defway888-design/wu-laoshi-amazon-title-bullets-skill
 安装后，在 Codex 中输入类似指令：
 
 ```text
+吴老师标题优化
+```
+
+也可以使用语音友好的启动口令：
+
+```text
+启动吴老师标题优化
+```
+
+完整启动口令：
+
+```text
 执行跨境吴老师标题亮点优化 Skill
 ```
 
