@@ -37,6 +37,8 @@ https://github.com/defway888-design/wu-laoshi-amazon-title-bullets-skill
 
 安装完成后，重启 Codex，让 Skill 生效。
 
+安装后如果 Codex 显示 Skill 快捷入口，点击该入口时会带出默认介绍与 ASIN 输入引导。也可以直接输入快速启动口令。
+
 ## 启动方式
 
 安装后，在 Codex 中输入类似指令：
